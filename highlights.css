@@ -1,0 +1,81 @@
+body {
+	font: 10px sans-serif;
+	color: #333;
+	background: #fefefa;
+}
+
+svg {
+	float: left;
+	margin-bottom: 50px;
+}
+
+text {
+	fill: #333;
+}
+
+text.chart.title {
+	font-size: 15px;
+	stroke: #336;
+	stroke-width: 0.2px;
+}
+
+.chart rect, line {
+	stroke: cadetblue;
+	fill: powderblue;
+}
+
+.chart rect.gold, line.gold {
+	stroke: goldenrod;
+	fill: gold;
+}
+
+.chart rect.silver, line.silver {
+	stroke: gray;
+	fill: silver;
+}
+
+.chart rect.bronze, line.bronze {
+	stroke: sienna;
+	fill: peru;
+}
+
+.chart rect.fail {
+	stroke: palevioletred;
+	fill: pink;
+}
+
+.axis path {
+	fill: none;
+	stroke: steelblue;
+}
+
+.robot.names {
+	font: 8px sans-serif;
+	fill: #333;
+}
+
+.robot.scores {
+	font: 8px sans-serif;
+	fill: #555;
+}
+
+.inline.scores {
+	font: 10px sans-serif;
+	fill: #555;
+}
+
+.tourney path {
+	stroke: cadetblue;
+	fill: none;
+	stroke-linecap: round;
+}
+
+.tourney path.winner {
+	stroke: tomato;
+	stroke-width: 2.5px;
+}
+
+.tourney path.rigged.winner {
+	stroke: steelblue;
+	stroke-width: 2.5px;
+}

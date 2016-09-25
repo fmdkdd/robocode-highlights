@@ -1,0 +1,2 @@
+Visualizations and test runner I wrote for when supervising a [[http://robocode.sourceforge.net/][Robocode]] project
+for first-year students at EMN.
